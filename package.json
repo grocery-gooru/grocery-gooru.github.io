@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-guru",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/robots": "^2.4.2",
+    "@popperjs/core": "^2.6.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "core-js": "^3.8.2",
+    "nuxt": "^2.14.12",
+    "nuxt-robots-module": "^1.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "@vue/test-utils": "^1.1.2",
+    "autoprefixer": "9",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.6.3",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "postcss": "7",
+    "prettier": "^2.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vue-jest": "^3.0.4"
+  }
+}
