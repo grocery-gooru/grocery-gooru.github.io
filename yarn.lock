@@ -1448,11 +1448,6 @@
   dependencies:
     http-proxy-middleware "^1.0.6"
 
-"@nuxtjs/robots@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.npmjs.org/@nuxtjs/robots/-/robots-2.4.2.tgz#9a96c91abb70e39b414eec502ef1cf7d5ef0235e"
-  integrity sha512-BW3qhvxlPBKlMkZHtARFPeliFraiZHS28G3j4qgRbSfOBtHC0yDX3Dnq1LkQMzAbPfbw6A1L3sdjgBVZZnfFAw==
-
 "@nuxtjs/tailwindcss@^3.4.2":
   version "3.4.2"
   resolved "https://registry.npmjs.org/@nuxtjs/tailwindcss/-/tailwindcss-3.4.2.tgz#2376877b7e3fff35c044e99828d5e7cacfec5621"
@@ -7030,11 +7025,6 @@ num2fraction@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
-
-nuxt-robots-module@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.npmjs.org/nuxt-robots-module/-/nuxt-robots-module-1.5.1.tgz#110bc068bc971ca44a2d85d94095ac9152d52364"
-  integrity sha512-A12tQkAfhGOCMhadqJqZcMFmFB4QWHKdNO75vZU9Lteh5bp8CyPCuzYgXVHG4LC5aHs5defBjsX9ja4FQCYA+w==
 
 nuxt@^2.14.12:
   version "2.14.12"
