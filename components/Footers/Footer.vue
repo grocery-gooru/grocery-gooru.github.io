@@ -129,7 +129,7 @@
                 </li>
                 <li>
                   <router-link
-                    to='/privacy-policy'
+                    to='/contact'
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                   >
                     Contact Us

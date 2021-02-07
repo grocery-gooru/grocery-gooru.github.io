@@ -45,10 +45,5 @@ export default {
   axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-
-  robots: {
-    UserAgent: '*',
-    Disallow: '*'
-  }
+  build: {}
 }

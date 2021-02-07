@@ -48,5 +48,5 @@ jobs:
       - name: Generate site
         run: yarn generate
 
-      - name: Deploy site
-        run: yarn deploy
+#      - name: Deploy site
+#        run: yarn deploy

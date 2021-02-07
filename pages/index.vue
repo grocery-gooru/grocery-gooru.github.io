@@ -636,14 +636,13 @@
               >
                 FAQ
               </a>
-              <a
-                href='https://github.com/creativetimofficial/vue-notus?ref=vn-index'
-                target='_blank'
+              <router-link
+                to='/contact'
                 class='github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-cherrywood-500 active:bg-cherrywood-400 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
               >
                 <i class='fab fa-github text-lg mr-1'></i>
                 <span>Contact Us</span>
-              </a>
+              </router-link>
             </div>
             <div class='text-center mt-16'></div>
           </div>
