@@ -94,7 +94,7 @@
                   <div
                     class='text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'
                   >
-                    <i class='fas fa-drafting-compass'></i>
+                    <i class='fas fa-wrench'></i>
                   </div>
                   <h6 class='text-xl mb-1 font-semibold'>Versatile</h6>
                   <p class='mb-4 text-gray-600'>
@@ -110,7 +110,7 @@
                   <div
                     class='text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'
                   >
-                    <i class='fas fa-sitemap'></i>
+                    <i class='fas fa-chart-line'></i>
                   </div>
                   <h6 class='text-xl mb-1 font-semibold'>Efficient</h6>
                   <p class='mb-4 text-gray-600'>
@@ -124,7 +124,7 @@
                   <div
                     class='text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'
                   >
-                    <i class='fas fa-newspaper'></i>
+                    <i class='fas fa-thumbs-up'></i>
                   </div>
                   <h6 class='text-xl mb-1 font-semibold'>Reliable</h6>
                   <p class='mb-4 text-gray-600'>
@@ -137,11 +137,11 @@
                   <div
                     class='text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'
                   >
-                    <i class='fas fa-sitemap'></i>
+                    <i class='fas fa-user-secret'></i>
                   </div>
                   <h6 class='text-xl mb-1 font-semibold'>Discreet</h6>
                   <p class='mb-4 text-gray-600'>
-                    All communication is direct and personal. Having access to your very own client
+                    All communication is direct and personal. You have access to your very own client
                     liaison executive ensuring that
                     your needs are fully met with integrity and care.
                   </p>

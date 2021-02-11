@@ -176,7 +176,7 @@ export default {
     },
     message() {
       if (this.plan)
-        return `Dear Sir/Madam \nI'd to inquire about the ${this.formTitle} plan. Please contact me on my Mobile/Email`
+        return `Dear Sir/Madam \nI'd like to inquire about the ${this.formTitle} plan. Please contact me on my Mobile/Email`
       return ''
     }
   },
