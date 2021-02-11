@@ -10,6 +10,14 @@ module.exports = {
     ]
   },
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      '3xl': '1720px',
+    },
     extend: {
       minHeight: {
         'screen-75': '75vh'
@@ -51,7 +59,7 @@ module.exports = {
       maxHeight: {
         '860-px': '860px',
         '620-px': '620px',
-        '600=px': '600px'
+        '600-px': '600px'
       },
       maxWidth: {
         '100-px': '100px',

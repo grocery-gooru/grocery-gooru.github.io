@@ -10,7 +10,8 @@
         class='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'
       >
         <router-link to='/'>
-            <img class='w-56 sm:invisible lg:visible' src='@/assets/img/logo.webp' alt='grocery-guru logo' />
+            <img class='w-56 xs:hidden lg:visible' src='@/assets/img/logo.webp' alt='grocery-guru logo' />
+            <img class='h-12 xs:visible lg:hidden' src='@/assets/img/logo-mobile.webp' alt='grocery-guru logo' />
         </router-link>
         <button
           class='cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'

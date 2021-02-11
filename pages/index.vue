@@ -6,27 +6,27 @@
       :style='{ backgroundImage: `url(${backgroundImagePath})` }'
     >
       <div class='container mx-auto items-center flex flex-wrap'>
-        <div class='w-full xl:w-6/12 px-12 pt-12 rounded-lg bg-white bg-opacity-20 text-black'>
+        <div class='w-full xl:w-6/12 px-12 pt-12 rounded-lg bg-white bg-opacity-0 text-black'>
           <div class='sm:pt-0'>
             <h2 class='font-semibold text-5xl text-center'>
               Grocery Guru - We Handle The Hassle So You Don't Have To
             </h2>
             <p class='mt-4 text-xl leading-relaxed text-center'>
               We offer a fully comprehensive turn-key solution that manages the A-Z of your <b>Needs</b> Lifestyle.
-              <b>Personally, Professionally, Proficiently</b>
+              <b>Personally, Professionally, Proficiently.</b>
             </p>
             <p class='mt-4 text-xl leading-relaxed text-center'>
               <b>COVID-19 is a reality. Your needs are a necessity. The Grocery Guru manages your necessary needs
                 providing comfort and convenience affordably. A better reality!</b>
             </p>
             <div class='mt-12 text-center'>
-              <a
-                href='https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus?ref=vn-index'
+              <router-link
+                to='/contact'
                 target='_blank'
                 class='get-started text-white bg-everglade-500 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 active:bg-everglade-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
               >
                 How it works
-              </a>
+              </router-link>
               <a
                 href='#pricing-plans'
                 class='github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-cherrywood-500 active:bg-cherrywood-400 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
@@ -114,7 +114,7 @@
                   </div>
                   <h6 class='text-xl mb-1 font-semibold'>Efficient</h6>
                   <p class='mb-4 text-gray-600'>
-                    Structured or flexible time allocation. Same day delivery. <i>(T's and C's apply)</i>.
+                    Structured or flexible time allocation. Same day delivery. <br/> <i>(T's and C's apply)</i>.
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@
                   </div>
                   <h6 class='text-xl mb-1 font-semibold'>Reliable</h6>
                   <p class='mb-4 text-gray-600'>
-                    Communication and Service delivery 24/7. <i>(T's and C's apply)</i>
+                    Communication and Service delivery 24/7.<br /> <i>(T's and C's apply)</i>
                   </p>
                 </div>
               </div>
@@ -621,26 +621,13 @@
           <div class='w-full text-center lg:w-8/12'>
 
             <h3 class='font-semibold text-3xl'>
-              Do you want to know more?
+              We offer various personal solutions to find out more contact us.
             </h3>
-            <p class='text-gray-600 text-lg leading-relaxed mt-4 mb-4'>
-              Cause if you do, it can be yours now. Hit the buttons below to
-              navigate to get the Free version for your next project. Build a
-              new web app or give an old project a new look!
-            </p>
             <div class='sm:block flex flex-col mt-10'>
-              <a
-                href='https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus?ref=vn-index'
-                target='_blank'
-                class='get-started text-white font-bold px-6 py-4 rounded outline-none bg-everglade-500 focus:outline-none mr-1 mb-2 fa-primary active:bg-everglade-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
-              >
-                FAQ
-              </a>
               <router-link
                 to='/contact'
                 class='github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-cherrywood-500 active:bg-cherrywood-400 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
               >
-                <i class='fab fa-github text-lg mr-1'></i>
                 <span>Contact Us</span>
               </router-link>
             </div>
@@ -657,7 +644,6 @@ import IndexNavbar from '@/components/Navbars/IndexNavbar.vue'
 import FooterComponent from '@/components/Footers/Footer.vue'
 
 import patternVue from '@/assets/img/pattern_vue.png'
-import backgroundImagePath from '@/assets/img/grocery-guru-concierge.webp'
 import componentBtn from '@/assets/img/component-btn.png'
 import componentProfileCard from '@/assets/img/component-profile-card.png'
 import componentInfoCard from '@/assets/img/component-info-card.png'
@@ -668,12 +654,16 @@ import documentation from '@/assets/img/documentation.png'
 import login from '@/assets/img/login.jpg'
 import profile from '@/assets/img/profile.jpg'
 import landing from '@/assets/img/landing.jpg'
+import resolveConfig from 'tailwindcss/resolveConfig'
+import tailwindConfig from '@/tailwind.config.js'
+import backgroundImagePath from '@/assets/img/grocery-guru-concierge.webp'
+
+const fullConfig = resolveConfig(tailwindConfig)
 
 export default {
   data() {
     return {
       patternVue,
-      backgroundImagePath,
       componentBtn,
       componentProfileCard,
       componentInfoCard,
@@ -683,7 +673,8 @@ export default {
       documentation,
       login,
       profile,
-      landing
+      landing,
+      backgroundImagePath
     }
   },
   components: {
