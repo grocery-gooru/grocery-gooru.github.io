@@ -46,22 +46,22 @@
           <li class='flex items-center'>
             <a
               class='hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold'
-              href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fvue-notus%2F%23%2F'
+              href='https://fb.me/grocery.guru.za'
               target='_blank'
             >
               <i class='text-gray-500 fab fa-facebook text-lg leading-lg' />
-              <span class='lg:hidden inline-block ml-2'>Share</span>
+              <span class='lg:hidden inline-block ml-2'>Facebook Page</span>
             </a>
           </li>
 
           <li class='flex items-center'>
             <a
               class='hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold'
-              href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fvue-notus%2F%23%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20VueJS%20UI%20Kit%20and%20Admin.%20Let%20Vue%20Notus%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level.%20'
+              href='https://m.me/grocery.guru.za'
               target='_blank'
             >
-              <i class='text-gray-500 fab fa-whatsapp text-lg leading-lg' />
-              <span class='lg:hidden inline-block ml-2'>Tweet</span>
+              <i class='text-gray-500 fab fa-facebook-messenger text-lg leading-lg' />
+              <span class='lg:hidden inline-block ml-2'>Facebook Message</span>
             </a>
           </li>
 

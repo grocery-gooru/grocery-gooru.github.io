@@ -21,11 +21,10 @@
             </p>
             <div class='mt-12 text-center'>
               <router-link
-                to='/contact'
-                target='_blank'
+                to='/contact?plan=custom'
                 class='get-started text-white bg-everglade-500 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 active:bg-everglade-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
               >
-                How it works
+                Custom Requests
               </router-link>
               <a
                 href='#pricing-plans'
@@ -621,7 +620,7 @@
           <div class='w-full text-center lg:w-8/12'>
 
             <h3 class='font-semibold text-3xl'>
-              We offer various personal solutions to find out more contact us.
+              We offer various personal solutions; To find out more contact us.
             </h3>
             <div class='sm:block flex flex-col mt-10'>
               <router-link

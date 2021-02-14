@@ -33,18 +33,22 @@
 <!--            >-->
 <!--              <i class="fab fa-twitter"></i>-->
 <!--            </button>-->
-            <button
-              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+            <a
+              class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
               type="button"
+              target='_blank'
+              href='https://fb.me/grocery.guru.za'
             >
               <i class="fab fa-facebook-square"></i>
-            </button>
-            <button
-              class="bg-white text-green-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+            </a>
+            <a
+              class="text-indigo-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
               type="button"
+              target='_blank'
+              href='https://m.me/grocery.guru.za'
             >
-              <i class="fab fa-whatsapp-square"></i>
-            </button>
+              <i class="fab fa-facebook-messenger"></i>
+            </a>
 <!--            <button-->
 <!--              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"-->
 <!--              type="button"-->
