@@ -16,16 +16,16 @@
         </p>
         <p>
           The Client agrees to enter into a business agreement with The <b>Grocery Guru Pty Ltd</b> for a
-          minimum term of months.
-          The client hereby agrees to be enrolled into the. membership program.
+          minimum term of 3 months.
+          The client hereby agrees to be enrolled into the membership program.
           Each Membership Program is tailored to suit the best interests of each client. Each Membership
-          is Subcription based.
+          is Subscription based.
         </p>
         <p>
           The monthly Subscription fees for the above mentioned membership program are as follows:
-          R. Fixed installment due in advance for each month by no later than the 28th of
-          the previous month.
-          R. Fixed Point Of Destination Delivery / Collection fee.
+          1) Fixed installment due in advance for each month by no later than the 28th of
+          the previous month.<br />
+          2) Fixed Point Of Destination Delivery / Collection fee.
           All errands and other specific client requests are personally managed by a designated client
           liaison expert.
         </p>
