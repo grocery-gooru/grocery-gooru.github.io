@@ -22,7 +22,7 @@
           is Subscription based.
         </p>
         <p>
-          The monthly Subscription fees for the above mentioned membership program are as follows:
+          The monthly Subscription fees for the above mentioned membership program are as follows:<br />
           1) Fixed installment due in advance for each month by no later than the 28th of
           the previous month.<br />
           2) Fixed Point Of Destination Delivery / Collection fee.
