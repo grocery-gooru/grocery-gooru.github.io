@@ -1,20 +1,31 @@
 <template>
   <div>
     <index-navbar />
-    <div class="container mx-auto px-4 h-screen">
-      <div class="flex content-center items-center justify-center h-screen">
-        <div class="w-full lg:w-6/12 px-4">
+    <div class='container mx-auto px-4 h-screen'>
+      <div class='flex content-center items-center justify-center h-screen'>
+        <div class='w-full lg:w-6/12 px-4'>
           <div
-            class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 border-0"
+            class='relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300 border-0'
           >
-            <div class="rounded-t mb-0 px-6 py-6">
-              <div class="text-center mb-3">
-                <h2 class="text-gray-600 text-xl font-bold">
+            <div class='rounded-t mb-0 px-6 py-6'>
+              <div class='text-center mb-3'>
+                <h2 class='text-gray-600 text-xl font-bold'>
                   {{ formTitle }} Inquiry
                 </h2>
               </div>
 
-              <div class="btn-wrapper text-center">
+              <div class='btn-wrapper text-center'>
+                <a
+                  class='bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150'
+                  type='button'
+                  target='_blank'
+                  href='https://api.whatsapp.com/send?phone=27607008577'
+                >
+                  <i
+                    class='fab fa-whatsapp text-lg text-green-500 mr-2'
+                  ></i>
+                  WhatsApp
+                </a>
                 <a
                   class="bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                   type="button"
@@ -27,82 +38,82 @@
                   FB messenger
                 </a>
                 <a
-                  class="rotten-link bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
-                  type="button"
-                  target="_blank"
-                  href="tel:060-700-8577"
+                  class='rotten-link bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150'
+                  type='button'
+                  target='_blank'
+                  href='tel:060-700-8577'
                 >
                   <i
-                    class="fab fa-skype text-blue-400 text-lg text-gray-500 mr-2"
+                    class='fa fa-phone-alt text-lg text-blue-600 mr-2'
                   ></i>
                   060-700-8577
                 </a>
               </div>
-              <hr class="mt-6 border-b-1 border-gray-400" />
+              <hr class='mt-6 border-b-1 border-gray-400' />
               <div
                 v-if="plan === 'custom'"
-                class="text-sm justify-center text-center"
+                class='text-sm justify-center text-center'
               >
                 Want more flexibility? Tell us how we can customise a solution
                 for you.
               </div>
             </div>
-            <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-              <form @submit.prevent="sendMessage">
-                <div class="relative w-full mb-3">
+            <div class='flex-auto px-4 lg:px-10 py-10 pt-0'>
+              <form @submit.prevent='sendMessage'>
+                <div class='relative w-full mb-3'>
                   <label
-                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    class='block uppercase text-gray-700 text-xs font-bold mb-2'
                   >
                     Name
                   </label>
                   <input
                     required
-                    type="text"
-                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="Name"
-                    v-model="form.name"
+                    type='text'
+                    class='px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150'
+                    placeholder='Name'
+                    v-model='form.name'
                   />
                 </div>
 
-                <div class="relative w-full mb-3">
+                <div class='relative w-full mb-3'>
                   <label
-                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    class='block uppercase text-gray-700 text-xs font-bold mb-2'
                   >
                     Mobile / Cell Number (Optional)
                   </label>
                   <input
-                    v-model="form.phone"
-                    type="text"
-                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="Mobile/Cell Number"
+                    v-model='form.phone'
+                    type='text'
+                    class='px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150'
+                    placeholder='Mobile/Cell Number'
                   />
                 </div>
 
-                <div class="relative w-full mb-3">
+                <div class='relative w-full mb-3'>
                   <label
-                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    class='block uppercase text-gray-700 text-xs font-bold mb-2'
                   >
                     Email
                   </label>
                   <input
-                    v-model="form.email"
+                    v-model='form.email'
                     required
-                    type="email"
-                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="Email"
+                    type='email'
+                    class='px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150'
+                    placeholder='Email'
                   />
                 </div>
 
-                <div class="relative w-full mb-3">
+                <div class='relative w-full mb-3'>
                   <label
-                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    class='block uppercase text-gray-700 text-xs font-bold mb-2'
                   >
                     Message
                   </label>
                   <textarea
-                    v-model="form.message"
-                    class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white h-40 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
-                    placeholder="Message"
+                    v-model='form.message'
+                    class='px-3 py-3 placeholder-gray-400 text-gray-700 bg-white h-40 rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150'
+                    placeholder='Message'
                     required
                   />
                 </div>
@@ -123,28 +134,28 @@
                 <!--                </label>-->
                 <!--              </div>-->
 
-                <div class="text-center mt-6">
+                <div class='text-center mt-6'>
                   <button
-                    v-if="!success"
+                    v-if='!success'
                     :class="{ 'animate-pulse': loading }"
-                    class="bg-cherrywood-500 text-white active:bg-cherrywood-400 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                    type="submit"
-                    :disabled="loading"
+                    class='bg-cherrywood-500 text-white active:bg-cherrywood-400 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150'
+                    type='submit'
+                    :disabled='loading'
                   >
                     Send Inquiry
                   </button>
                 </div>
-                <alert v-if="success" color="everglade">
-                  <p class="font-bold">Thank you</p>
-                  <p class="text-sm">
+                <alert v-if='success' color='everglade'>
+                  <p class='font-bold'>Thank you</p>
+                  <p class='text-sm'>
                     We have received your email, expect feedback from us
                     shortly.
                   </p>
                 </alert>
 
-                <alert v-if="error" color="cherrywood">
-                  <p class="font-bold text-white">Error</p>
-                  <p class="text-sm text-white">
+                <alert v-if='error' color='cherrywood'>
+                  <p class='font-bold text-white'>Error</p>
+                  <p class='text-sm text-white'>
                     We were unable to process your request at this time. Please
                     try again later
                   </p>
@@ -174,8 +185,8 @@ export default {
         email: '',
         phone: '',
         message: '',
-        plan: '',
-      },
+        plan: ''
+      }
     }
   },
   computed: {
@@ -200,7 +211,7 @@ export default {
       if (this.plan)
         return `Dear Sir/Madam \nI'd like to inquire about the ${this.formTitle} plan. Please contact me on my Mobile/Email`
       return ''
-    },
+    }
   },
   methods: {
     sendMessage() {
@@ -221,7 +232,7 @@ export default {
         .finally(() => {
           this.loading = false
         })
-    },
-  },
+    }
+  }
 }
 </script>

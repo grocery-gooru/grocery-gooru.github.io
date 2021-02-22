@@ -42,12 +42,12 @@
               <i class="fab fa-facebook-square"></i>
             </a>
             <a
-              class="text-indigo-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
+              class="text-green-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
               type="button"
               target='_blank'
-              href='https://m.me/grocery.guru.za'
+              href='https://api.whatsapp.com/send?phone=27607008577'
             >
-              <i class="fab fa-facebook-messenger"></i>
+              <i class="fab fa-whatsapp"></i>
             </a>
 <!--            <button-->
 <!--              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"-->

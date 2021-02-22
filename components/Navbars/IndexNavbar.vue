@@ -1,7 +1,7 @@
 <template>
   <nav
     :class="{ 'bg-opacity-100': !view.atTopOfPage || solid, 'shadow-xl': !view.atTopOfPage || solid }"
-    class='top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white bg-opacity-0 transition duration-300 ease-in-out'
+    class='top-0 sticky sm:fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white bg-opacity-0 transition duration-300 ease-in-out'
   >
     <div
       class='container px-4 mx-auto flex flex-wrap items-center justify-between'
@@ -10,8 +10,8 @@
         class='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'
       >
         <router-link to='/'>
-            <img class='w-56 xs:hidden lg:visible' src='@/assets/img/logo.webp' alt='grocery-guru logo' />
-            <img class='h-12 xs:visible lg:hidden' src='@/assets/img/logo-mobile.webp' alt='grocery-guru logo' />
+            <img class='w-56 hidden sm:block' src='@/assets/img/logo.png' alt='grocery-guru logo' />
+            <img class='h-12 block sm:hidden' src='@/assets/img/logo-mobile.png' alt='grocery-guru logo' />
         </router-link>
         <button
           class='cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
@@ -57,11 +57,11 @@
           <li class='flex items-center'>
             <a
               class='hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold'
-              href='https://m.me/grocery.guru.za'
+              href='https://api.whatsapp.com/send?phone=27607008577'
               target='_blank'
             >
-              <i class='text-gray-500 fab fa-facebook-messenger text-lg leading-lg' />
-              <span class='lg:hidden inline-block ml-2'>Facebook Message</span>
+              <i class='text-gray-500 fab fa-whatsapp text-lg leading-lg' />
+              <span class='lg:hidden inline-block ml-2'>WhatsApp</span>
             </a>
           </li>
 

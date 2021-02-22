@@ -655,7 +655,7 @@ import profile from '@/assets/img/profile.jpg'
 import landing from '@/assets/img/landing.jpg'
 import resolveConfig from 'tailwindcss/resolveConfig'
 import tailwindConfig from '@/tailwind.config.js'
-import backgroundImagePath from '@/assets/img/grocery-guru-concierge.webp'
+import backgroundImagePath from '@/assets/img/grocery-guru-concierge.jpg'
 
 const fullConfig = resolveConfig(tailwindConfig)
 
