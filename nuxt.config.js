@@ -38,8 +38,17 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'nuxt-facebook-pixel-module'
   ],
+
+  // Facebook tracking pixel https://www.npmjs.com/package/nuxt-facebook-pixel-module
+  facebook: {
+    track: 'PageView',
+    pixelId: '1750533488449821',
+    autoPageView: true,
+    disabled: false
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
