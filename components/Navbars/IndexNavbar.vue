@@ -1,7 +1,6 @@
 <template>
   <nav
-    :class="{ 'bg-opacity-100': !view.atTopOfPage || solid, 'shadow-xl': !view.atTopOfPage || solid }"
-    class='top-0 sticky sm:fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white bg-opacity-0 transition duration-300 ease-in-out'
+    class='top-0 sticky sm:fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white bg-opacity-100 transition duration-300 ease-in-out shadow-xl'
   >
     <div
       class='container px-4 mx-auto flex flex-wrap items-center justify-between'
@@ -57,7 +56,7 @@
           <li class='flex items-center'>
             <a
               class='hover:text-gray-600 text-gray-800 px-3 py-2 flex items-center text-xs uppercase font-bold'
-              href='https://api.whatsapp.com/send?phone=27607008577'
+              href='https://api.whatsapp.com/send?phone=27768095108'
               target='_blank'
             >
               <i class='text-gray-500 fab fa-whatsapp text-lg leading-lg' />
@@ -77,12 +76,12 @@
           <!--          </li>-->
 
           <li class='flex items-center'>
-            <button
-              class='bg-everglade-500 text-white active:bg-everglade-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
-              type='button'
-            >
-              LOGIN
-            </button>
+<!--            <button-->
+<!--              class='bg-everglade-500 text-white active:bg-everglade-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'-->
+<!--              type='button'-->
+<!--            >-->
+<!--              LOGIN-->
+<!--            </button>-->
           </li>
         </ul>
       </div>

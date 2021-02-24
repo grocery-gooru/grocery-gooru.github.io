@@ -2,33 +2,33 @@
   <div>
     <index-navbar />
     <section
-      class='header relative items-center align-middle flex h-screen max-h-620-px bg-fixed'
+      class='header relative items-center align-middle flex h-screen max-h-620-px bg-fixed bg-gray-200 sm:bg-none'
       :style='{ backgroundImage: `url(${backgroundImagePath})` }'
     >
       <div class='container mx-auto items-center flex flex-wrap'>
         <div class='w-full xl:w-6/12 px-12 pt-12 rounded-lg bg-white bg-opacity-0 text-black'>
           <div class='sm:pt-0'>
-            <h2 class='font-semibold text-5xl text-center'>
+            <h2 class='font-semibold text-3xl md:text-5xl text-center'>
               Grocery Guru - We Handle The Hassle So You Don't Have To
             </h2>
-            <p class='mt-4 text-xl leading-relaxed text-center'>
+            <p class='mt-4 md:text-xl text-lg leading-relaxed text-center'>
               We offer a fully comprehensive turn-key solution that manages the A-Z of your <b>Needs</b> Lifestyle.
               <b>Personally, Professionally, Proficiently.</b>
             </p>
-            <p class='mt-4 text-xl leading-relaxed text-center'>
+            <p class='mt-4 md:text-xl text-lg leading-relaxed text-center'>
               <b>COVID-19 is a reality. Your needs are a necessity. The Grocery Guru manages your necessary needs
                 providing comfort and convenience affordably. A better reality!</b>
             </p>
-            <div class='mt-12 text-center'>
+            <div class='mt-12 text-center flex'>
               <router-link
                 to='/contact?plan=custom'
-                class='get-started text-white bg-everglade-500 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 active:bg-everglade-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
+                class='text-white bg-everglade-500 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 active:bg-everglade-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
               >
                 Custom Requests
               </router-link>
               <a
                 href='#pricing-plans'
-                class='github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-cherrywood-500 active:bg-cherrywood-400 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
+                class='ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-cherrywood-500 active:bg-cherrywood-400 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
               >
                 Pricing Plans
               </a>

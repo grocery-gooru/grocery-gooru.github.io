@@ -45,7 +45,7 @@
               class="text-green-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
               type="button"
               target='_blank'
-              href='https://api.whatsapp.com/send?phone=27607008577'
+              href='https://api.whatsapp.com/send?phone=27768095108'
             >
               <i class="fab fa-whatsapp"></i>
             </a>

@@ -19,7 +19,7 @@
                   class='bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150'
                   type='button'
                   target='_blank'
-                  href='https://api.whatsapp.com/send?phone=27607008577'
+                  href='https://api.whatsapp.com/send?phone=27768095108'
                 >
                   <i
                     class='fab fa-whatsapp text-lg text-green-500 mr-2'
@@ -41,12 +41,12 @@
                   class='rotten-link bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150'
                   type='button'
                   target='_blank'
-                  href='tel:060-700-8577'
+                  href='tel:076-809-5108'
                 >
                   <i
                     class='fa fa-phone-alt text-lg text-blue-600 mr-2'
                   ></i>
-                  060-700-8577
+                  076-809-5108
                 </a>
               </div>
               <hr class='mt-6 border-b-1 border-gray-400' />
