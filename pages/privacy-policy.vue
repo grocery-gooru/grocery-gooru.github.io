@@ -1,7 +1,5 @@
 <template>
   <div class='text-xl'>
-    <index-navbar :solid='true' />
-
     <section class='py-20 pb-5 bg-gradient-to-r from-everglade-500 to-cherrywood-500 overflow-hidden mb-5'>
       <div class='container mx-auto mt-10'>
         <h1 class='text-white text-6xl'>Privacy Policy</h1>

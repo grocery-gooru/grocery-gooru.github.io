@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <index-navbar />
     <div class='container mx-auto px-4 h-screen'>
       <div class='flex content-center items-center justify-center h-screen'>
         <div class='w-full lg:w-6/12 px-4'>
@@ -166,7 +164,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 <script>
 import axios from 'axios'

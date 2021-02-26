@@ -1,8 +1,7 @@
 <template>
   <div>
-    <index-navbar />
     <section
-      class='header relative items-center align-middle flex h-screen max-h-620-px bg-fixed bg-gray-200 sm:bg-none'
+      class='header relative items-center align-middle flex h-screen max-h-620-px bg-gray-200 sm:bg-none'
       :style='{ backgroundImage: `url(${backgroundImagePath})` }'
     >
       <div class='container mx-auto items-center flex flex-wrap'>
@@ -19,7 +18,7 @@
               <b>COVID-19 is a reality. Your needs are a necessity. The Grocery Guru manages your necessary needs
                 providing comfort and convenience affordably. A better reality!</b>
             </p>
-            <div class='mt-12 text-center flex'>
+            <div class='mt-12 text-center flex justify-center'>
               <router-link
                 to='/contact?plan=custom'
                 class='text-white bg-everglade-500 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 active:bg-everglade-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
