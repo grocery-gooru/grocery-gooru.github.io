@@ -122,6 +122,18 @@ export default {
   components: {
     IndexNavbar,
     FooterComponent
+  },
+  head() {
+    return {
+      title: 'Terms & Conditions',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Service Agreement Declaration.The following serves as an official Memorandum Of Understanding Agreed upon by the ( client ) and The Grocery Guru Pty Ltd.'
+        }
+      ]
+    }
   }
 }
 </script>

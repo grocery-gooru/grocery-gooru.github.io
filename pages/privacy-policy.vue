@@ -376,6 +376,18 @@ export default {
   components: {
     IndexNavbar,
     FooterComponent
+  },
+  head() {
+    return {
+      title: 'Privacy Policy',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'This Privacy Policy describes Our policies and procedures on the collection, use, and disclosure of Your information when You use the Service.'
+        }
+      ]
+    }
   }
 }
 </script>

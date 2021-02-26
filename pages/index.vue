@@ -113,7 +113,7 @@
                   </div>
                   <h6 class='text-xl mb-1 font-semibold'>Efficient</h6>
                   <p class='mb-4 text-gray-600'>
-                    Structured or flexible time allocation. Same day delivery. <br/> <i>(T's and C's apply)</i>.
+                    Structured or flexible time allocation. Same day delivery. <br /> <i>(T's and C's apply)</i>.
                   </p>
                 </div>
               </div>
@@ -551,36 +551,36 @@
     <section class='py-20 bg-gray-700 overflow-hidden'>
       <div class='container mx-auto pb-64'>
         <div class='flex flex-wrap justify-center'>
-<!--          <div class='w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64'>-->
-<!--            <div-->
-<!--              class='text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white'-->
-<!--            >-->
-<!--              <i class='fas fa-code-branch text-xl'></i>-->
-<!--            </div>-->
-<!--            <h3 class='text-3xl mb-2 font-semibold leading-normal text-white'>-->
-<!--              We do the things you need so you can do the things you love.-->
-<!--            </h3>-->
-<!--            <p-->
-<!--              class='text-lg font-semibold leading-relaxed mt-4 mb-4 text-gray-500'-->
-<!--            >-->
-<!--              A truly unique innovation that seeks to engage with and fully-->
-<!--              understand each clients personal lifestyle needs, and to then-->
-<!--              create a fully comprehensive turn key solution that essentially-->
-<!--              manages the A to Z of your needs lifestyle-->
-<!--            </p>-->
-<!--            <p-->
-<!--              class='text-lg font-sans leading-relaxed mt-0 mb-4 text-gray-500'-->
-<!--            >-->
-<!--              - personally professionally and proficiently!-->
-<!--            </p>-->
-<!--            <a-->
-<!--              href='https://github.com/creativetimofficial/vue-notus?ref=vn-index'-->
-<!--              target='_blank'-->
-<!--              class='github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'-->
-<!--            >-->
-<!--              Testimonials-->
-<!--            </a>-->
-<!--          </div>-->
+          <!--          <div class='w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64'>-->
+          <!--            <div-->
+          <!--              class='text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white'-->
+          <!--            >-->
+          <!--              <i class='fas fa-code-branch text-xl'></i>-->
+          <!--            </div>-->
+          <!--            <h3 class='text-3xl mb-2 font-semibold leading-normal text-white'>-->
+          <!--              We do the things you need so you can do the things you love.-->
+          <!--            </h3>-->
+          <!--            <p-->
+          <!--              class='text-lg font-semibold leading-relaxed mt-4 mb-4 text-gray-500'-->
+          <!--            >-->
+          <!--              A truly unique innovation that seeks to engage with and fully-->
+          <!--              understand each clients personal lifestyle needs, and to then-->
+          <!--              create a fully comprehensive turn key solution that essentially-->
+          <!--              manages the A to Z of your needs lifestyle-->
+          <!--            </p>-->
+          <!--            <p-->
+          <!--              class='text-lg font-sans leading-relaxed mt-0 mb-4 text-gray-500'-->
+          <!--            >-->
+          <!--              - personally professionally and proficiently!-->
+          <!--            </p>-->
+          <!--            <a-->
+          <!--              href='https://github.com/creativetimofficial/vue-notus?ref=vn-index'-->
+          <!--              target='_blank'-->
+          <!--              class='github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'-->
+          <!--            >-->
+          <!--              Testimonials-->
+          <!--            </a>-->
+          <!--          </div>-->
 
           <div class='w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative'>
             <i
@@ -673,12 +673,26 @@ export default {
       login,
       profile,
       landing,
-      backgroundImagePath
+      backgroundImagePath,
+      structuredData: {
+        "@context": "http://schema.org",
+        "@type": "Service",
+        "Brand": {
+          "name": "Grocery Guru",
+          "slogan": "We handle the hassle so you don't have to",
+          "logo": "https://grocery-guru.com/brand_logo.png"
+        }
+      }
     }
   },
   components: {
     IndexNavbar,
     FooterComponent
+  },
+  head() {
+    return {
+      script: [{ type: 'application/ld+json', json: this.structuredData }]
+    }
   }
 }
 </script>

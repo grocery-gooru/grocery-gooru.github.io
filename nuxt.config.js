@@ -4,14 +4,15 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Grocery Guru',
+    title: 'We handle the hassle so you don\'t have to',
+    titleTemplate: 'Grocery Guru | %s',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'We Handle The Hassle So You Don\'t Have To. Shop for groceries. Fulfill your monthly prescription. Collect your post, pay your bills, and do your laundry.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -39,7 +40,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    'nuxt-facebook-pixel-module'
+    'nuxt-facebook-pixel-module',
+    '@nuxtjs/sitemap'
   ],
 
   // Facebook tracking pixel https://www.npmjs.com/package/nuxt-facebook-pixel-module
@@ -48,6 +50,11 @@ export default {
     pixelId: '1750533488449821',
     autoPageView: true,
     disabled: false
+  },
+
+  // Sitemap https://sitemap.nuxtjs.org/
+  sitemap: {
+    hostname: "https://grocery-guru.com"
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
