@@ -674,12 +674,12 @@ export default {
       landing,
       backgroundImagePath,
       structuredData: {
-        "@context": "http://schema.org",
-        "@type": "Service",
-        "Brand": {
-          "name": "Grocery Guru",
-          "slogan": "We handle the hassle so you don't have to",
-          "logo": "https://grocery-guru.com/brand_logo.png"
+        '@context': 'http://schema.org',
+        '@type': 'Service',
+        'Brand': {
+          'name': 'Grocery Guru',
+          'slogan': 'We handle the hassle so you don\'t have to',
+          'logo': 'https://grocery-guru.com/brand_logo.png'
         }
       }
     }

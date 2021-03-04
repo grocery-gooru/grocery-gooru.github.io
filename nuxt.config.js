@@ -58,7 +58,20 @@ export default {
   // Sitemap https://sitemap.nuxtjs.org/
   sitemap: {
     hostname: 'https://grocery-guru.com',
-    trailingSlash: true,
+    trailingSlash: false,
+    filter ({ routes }) {
+      return routes.map(route => {
+        if (route.name === 'index'){
+          route.url = ''
+          route.path = ''
+        }
+        return route
+      })
+    }
+  },
+
+  router: {
+    trailingSlash: false
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

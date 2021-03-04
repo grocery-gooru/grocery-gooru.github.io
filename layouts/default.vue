@@ -11,9 +11,18 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.grocery-guru.com' + this.$route.path + '/'
+          href: this.canonicalUrl
         }
       ]
+    }
+  },
+  computed: {
+    canonicalUrl(){
+      const baseUrl = 'https://grocery-guru.com'
+      if (this.$route.path === '/'){
+        return baseUrl
+      }
+      return baseUrl + this.$route.path
     }
   }
 }
