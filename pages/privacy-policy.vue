@@ -67,9 +67,7 @@
                 Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
             </li>
             <li>
-              <p><strong>Website</strong> refers to Grocery Guru, accessible from <a href='https://grocery-guru.com'
-                                                                                     rel='external nofollow noopener'
-                                                                                     target='_blank'>https://grocery-guru.com</a>
+              <p><strong>Website</strong> refers to Grocery Guru, accessible from <a href='https://grocery-guru.com'>https://grocery-guru.com</a>
               </p>
             </li>
             <li>
@@ -324,8 +322,8 @@
               <p>By email:</p>
             </li>
             <li>
-              <p>By visiting this page on our website: <a href='https://grocery-guru.com/contact'
-                                                          rel='external nofollow noopener' target='_blank'>https://grocery-guru.com/contact</a>
+              <p>By visiting this page on our website: <a href='https://grocery-guru.com/contact/'
+                                                          rel='external' target='_blank'>https://grocery-guru.com/contact/</a>
               </p>
             </li>
           </ul>
