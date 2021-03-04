@@ -22,7 +22,7 @@ export default {
       if (this.$route.path === '/'){
         return baseUrl
       }
-      return baseUrl + this.$route.path
+      return baseUrl + this.$route.path + "/"
     }
   }
 }
