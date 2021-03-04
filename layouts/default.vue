@@ -11,7 +11,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.grocery-guru.com' + this.$route.path
+          href: 'https://www.grocery-guru.com' + this.$route.path + '/'
         }
       ]
     }
