@@ -58,8 +58,8 @@ export default {
 
   // Sitemap https://sitemap.nuxtjs.org/
   sitemap: {
-    hostname: 'https://grocery-guru.com',
-    trailingSlash: false,
+    hostname: 'https://grocery-guru.com/',
+    trailingSlash: true,
     filter({ routes }) {
       return routes.map(route => {
         if (route.name === 'index') {
@@ -72,21 +72,8 @@ export default {
   },
 
   router: {
-    trailingSlash: false
+    trailingSlash: true
   },
-
-  // https://github.com/nuxt-community/redirect-module#readme
-  redirect: [
-    {
-      from: '(?!^\/$|^\/[?].*$)(.*\/[?](.*)$|.*\/$)',
-      to: (from, req) => {
-        const base = req._parsedUrl.pathname.replace(/\/$/, '')  // We take pathname instead of req.url because of the query parameters
-        const search = req._parsedUrl.search
-        return base + (search != null ? search : '')
-      },
-      statusCode: 301
-    }
-  ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
