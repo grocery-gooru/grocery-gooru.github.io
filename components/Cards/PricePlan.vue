@@ -26,7 +26,7 @@
                         <li class='text-lg pt-1 invisible'> -</li>
                       </ul>
                       <button
-                        @click.prevent='$router.push("/contact?plan=personal")'
+                        @click.prevent='$router.push("/contact/?plan=personal")'
                         class='bg-transparent hover:bg-cherrywood-500 text-cherrywood-500 font-semibold hover:text-white py-3 px-4 border border-cherrywood-500 hover:border-transparent rounded mt-4 w-full'>
                         Inquire
                       </button>
@@ -59,7 +59,7 @@
                         <li class='text-lg pt-1 invisible'> -</li>
                       </ul>
                       <button
-                        @click.prevent='$router.push("/contact?plan=business")'
+                        @click.prevent='$router.push("/contact/?plan=business")'
                         class='bg-transparent hover:bg-cherrywood-500 text-cherrywood-500 font-semibold hover:text-white py-3 px-4 border border-cherrywood-500 hover:border-transparent rounded mt-4 w-full'>
                         Inquire
                       </button>
@@ -94,7 +94,7 @@
                         <li class='text-lg pt-1'>Personal Driver</li>
                       </ul>
                       <button
-                        @click.prevent='$router.push("/contact?plan=VIP")'
+                        @click.prevent='$router.push("/contact/?plan=VIP")'
                         class='bg-transparent hover:bg-cherrywood-500 text-cherrywood-500 font-semibold hover:text-white py-3 px-4 border border-cherrywood-500 hover:border-transparent rounded mt-4 w-full'>
                         Inquire
                       </button>

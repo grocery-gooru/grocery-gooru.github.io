@@ -117,7 +117,7 @@
 <!--                </li>-->
                 <li>
                   <router-link
-                    to='terms-and-conditions'
+                    to='/terms-and-conditions/'
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                   >
                     Terms & Conditions
@@ -126,14 +126,14 @@
                 <li>
                   <router-link
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    to="/privacy-policy"
+                    to="/privacy-policy/"
                   >
                     Privacy Policy
                   </router-link>
                 </li>
                 <li>
                   <router-link
-                    to='/contact'
+                    to='/contact/'
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                   >
                     Contact Us

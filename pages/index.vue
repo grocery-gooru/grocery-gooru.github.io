@@ -20,7 +20,7 @@
             </p>
             <div class='mt-12 text-center flex justify-center'>
               <router-link
-                to='/contact?plan=custom'
+                to='/contact/?plan=custom'
                 class='text-white bg-everglade-500 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 active:bg-everglade-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
               >
                 Custom Requests
@@ -623,7 +623,7 @@
             </h3>
             <div class='sm:block flex flex-col mt-10'>
               <router-link
-                to='/contact'
+                to='/contact/'
                 class='github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-cherrywood-500 active:bg-cherrywood-400 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'
               >
                 <span>Contact Us</span>
