@@ -16,8 +16,6 @@
                         style='font-family: icomoon; font-size: 72px'
                       >&#xe900;</i>
                       <h1 class='font-bold mb-2'>Personal Guru</h1>
-                      <div class='flex items-center justify-center mb-8'><span class='text-2xl -mt-8'>R</span><span
-                        class='text-6xl'>1500 p/m</span></div>
                       <ul>
                         <li class='text-lg'>3 Hours per week</li>
                         <li class='text-lg pt-1'>Flexi 1 hour slot 3 days a week</li>
@@ -49,8 +47,6 @@
                         style='font-family: icomoon; font-size: 72px'
                       >&#xe900;</i>
                       <h1 class='font-bold mb-2'>Business Guru</h1>
-                      <div class='flex items-center justify-center mb-8'><span class='text-2xl -mt-8'>R</span><span
-                        class='text-6xl'>3000 p/m</span></div>
                       <ul>
                         <li class='text-lg'>6 hours per week</li>
                         <li class='text-lg pt-1'>Fixed 2 hour slot 3 days a week</li>
@@ -84,8 +80,6 @@
                         style='font-family: icomoon; font-size: 72px'
                       >&#xe900;</i>
                       <h1 class='font-bold mb-2'>Lifestyle Guru VIP</h1>
-                      <div class='flex items-center justify-center mb-8'><span class='text-2xl -mt-8'>R</span><span
-                        class='text-6xl'>5300 p/m</span></div>
                       <ul>
                         <li class='text-lg'>10 hours per week</li>
                         <li class='text-lg pt-1'>Fixed 2 hour slot 5 days a week</li>

@@ -536,7 +536,7 @@
         </div>
         <div class='w-full md:w-6/12 px-12 md:px-4'>
           <h2 class='font-semibold text-4xl'>
-            Tailor made solutions for your lifestyle
+            Tailor made solutions for your lifestyle <br /> (Starting at R999.00)
           </h2>
           <p class='text-lg leading-relaxed mt-4 mb-4 text-gray-600'>
             Choose the pricing plan that suites your needs and budget.
