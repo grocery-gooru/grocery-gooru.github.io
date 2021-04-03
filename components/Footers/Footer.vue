@@ -2,7 +2,7 @@
   <footer class="relative bg-gray-300 pt-8 pb-6">
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-      style="transform: translateZ(0);"
+      style="transform: translateZ(0)"
     >
       <svg
         class="absolute bottom-0 overflow-hidden"
@@ -27,79 +27,79 @@
             Available 24/7 on these platforms.
           </h5>
           <div class="mt-6 lg:mb-0 mb-6">
-<!--            <button-->
-<!--              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"-->
-<!--              type="button"-->
-<!--            >-->
-<!--              <i class="fab fa-twitter"></i>-->
-<!--            </button>-->
+            <!--            <button-->
+            <!--              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"-->
+            <!--              type="button"-->
+            <!--            >-->
+            <!--              <i class="fab fa-twitter"></i>-->
+            <!--            </button>-->
             <a
               class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
               type="button"
-              target='_blank'
-              href='https://fb.me/grocery.guru.za'
+              target="_blank"
+              href="https://fb.me/grocery.guru.za"
             >
               <i class="fab fa-facebook-square"></i>
             </a>
             <a
               class="text-green-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
               type="button"
-              target='_blank'
-              href='https://api.whatsapp.com/send?phone=27768095108'
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=27768095108"
             >
               <i class="fab fa-whatsapp"></i>
             </a>
-<!--            <button-->
-<!--              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"-->
-<!--              type="button"-->
-<!--            >-->
-<!--              <i class="fab fa-github"></i>-->
-<!--            </button>-->
+            <!--            <button-->
+            <!--              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"-->
+            <!--              type="button"-->
+            <!--            >-->
+            <!--              <i class="fab fa-github"></i>-->
+            <!--            </button>-->
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">
-<!--            <div class="w-full lg:w-4/12 px-4 ml-auto">-->
-<!--              <span-->
-<!--                class="block uppercase text-gray-600 text-sm font-semibold mb-2"-->
-<!--              >-->
-<!--                Useful Links-->
-<!--              </span>-->
-<!--              <ul class="list-unstyled">-->
-<!--                <li>-->
-<!--                  <a-->
-<!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
-<!--                    href="https://www.creative-tim.com/presentation?ref=vn-footer"-->
-<!--                  >-->
-<!--                    About Us-->
-<!--                  </a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                  <a-->
-<!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
-<!--                    href="https://blog.creative-tim.com?ref=vn-footer"-->
-<!--                  >-->
-<!--                    Blog-->
-<!--                  </a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                  <a-->
-<!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
-<!--                    href="https://www.github.com/creativetimofficial?ref=vn-footer"-->
-<!--                  >-->
-<!--                    Github-->
-<!--                  </a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                  <a-->
-<!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
-<!--                    href="https://www.creative-tim.com/bootstrap-themes/free?ref=vn-footer"-->
-<!--                  >-->
-<!--                    Free Products-->
-<!--                  </a>-->
-<!--                </li>-->
-<!--              </ul>-->
-<!--            </div>-->
+            <!--            <div class="w-full lg:w-4/12 px-4 ml-auto">-->
+            <!--              <span-->
+            <!--                class="block uppercase text-gray-600 text-sm font-semibold mb-2"-->
+            <!--              >-->
+            <!--                Useful Links-->
+            <!--              </span>-->
+            <!--              <ul class="list-unstyled">-->
+            <!--                <li>-->
+            <!--                  <a-->
+            <!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
+            <!--                    href="https://www.creative-tim.com/presentation?ref=vn-footer"-->
+            <!--                  >-->
+            <!--                    About Us-->
+            <!--                  </a>-->
+            <!--                </li>-->
+            <!--                <li>-->
+            <!--                  <a-->
+            <!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
+            <!--                    href="https://blog.creative-tim.com?ref=vn-footer"-->
+            <!--                  >-->
+            <!--                    Blog-->
+            <!--                  </a>-->
+            <!--                </li>-->
+            <!--                <li>-->
+            <!--                  <a-->
+            <!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
+            <!--                    href="https://www.github.com/creativetimofficial?ref=vn-footer"-->
+            <!--                  >-->
+            <!--                    Github-->
+            <!--                  </a>-->
+            <!--                </li>-->
+            <!--                <li>-->
+            <!--                  <a-->
+            <!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
+            <!--                    href="https://www.creative-tim.com/bootstrap-themes/free?ref=vn-footer"-->
+            <!--                  >-->
+            <!--                    Free Products-->
+            <!--                  </a>-->
+            <!--                </li>-->
+            <!--              </ul>-->
+            <!--            </div>-->
             <div class="w-full lg:w-4/12 px-4">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
@@ -107,17 +107,17 @@
                 Resources
               </span>
               <ul class="list-unstyled">
-<!--                <li>-->
-<!--                  <a-->
-<!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
-<!--                    href="https://github.com/creativetimofficial/vue-notus/blob/master/LICENSE.md?ref=vn-footer"-->
-<!--                  >-->
-<!--                    MIT License-->
-<!--                  </a>-->
-<!--                </li>-->
+                <!--                <li>-->
+                <!--                  <a-->
+                <!--                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"-->
+                <!--                    href="https://github.com/creativetimofficial/vue-notus/blob/master/LICENSE.md?ref=vn-footer"-->
+                <!--                  >-->
+                <!--                    MIT License-->
+                <!--                  </a>-->
+                <!--                </li>-->
                 <li>
                   <router-link
-                    to='/terms-and-conditions/'
+                    to="/terms-and-conditions/"
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                   >
                     Terms & Conditions
@@ -133,11 +133,20 @@
                 </li>
                 <li>
                   <router-link
-                    to='/contact/'
+                    to="/contact/"
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                   >
                     Contact Us
                   </router-link>
+                </li>
+                <li>
+                  <a
+                    href="http://eepurl.com/huX67b"
+                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    target="_blank"
+                  >
+                    Subscribe
+                  </a>
                 </li>
               </ul>
             </div>
@@ -162,7 +171,7 @@ export default {
   data() {
     return {
       date: new Date().getFullYear(),
-    };
+    }
   },
-};
+}
 </script>
