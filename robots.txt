@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://grocery-guru.com/sitemap.xml
